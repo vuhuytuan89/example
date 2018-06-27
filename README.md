@@ -1,5 +1,5 @@
 # Create user
-@:~$ sudo useradd -m deploy
++ sudo useradd -m deploy
 + sudo su - deploy
 # Run ssh-keygen & add key to github
 + ssh-keygen -t rsa
