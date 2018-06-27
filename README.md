@@ -15,8 +15,8 @@ touch .ssh/authorized_keys
 ```
 # 2. Install PHP-FPM
 ## Install
-
-```php7.0
+# php7.0
+```
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
@@ -33,7 +33,8 @@ sudo add-apt-repository ppa:ondrej/php
     php7.0-fpm \
     php7.0-dev 
 ```
-```php7.2
+# php7.2
+```
 sudo add-apt-repository ppa:ondrej/php
 then
 apt-get update
